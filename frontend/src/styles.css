@@ -1,0 +1,16 @@
+:root { font-family: Arial, sans-serif; }
+body { margin: 0; background: #f5f7fa; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.sub { color: #667085; }
+.tabs { display: flex; gap: 8px; margin: 16px 0; }
+.tabs button { border: 1px solid #ccc; background: white; padding: 8px 14px; cursor: pointer; }
+.tabs .active { background: #111827; color: white; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+section { background: white; border-radius: 10px; padding: 16px; }
+.form { display: grid; gap: 8px; }
+input, select, textarea, button { padding: 8px; border-radius: 8px; border: 1px solid #d0d5dd; }
+button { cursor: pointer; background: #2563eb; color: white; border: none; }
+.checks { display: flex; gap: 12px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #e4e7ec; padding: 8px; text-align: left; font-size: 14px; }
+.tableWrap { max-height: 360px; overflow: auto; }
